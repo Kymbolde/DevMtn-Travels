@@ -59,12 +59,12 @@ Take a look at the index.html page.
 * `devmtnTravel` is included as the name of our app. ng-app="devmtnTravel"
 * A navigation menu has been created that's going to be at the top of the page for every route - Also, notice that they don't do anything yet. They aren't linked to any views.
 * The ui-router script tag is separate from Angular. It doesn't come built in with Angular
-* &lt;ui-view></ui-view&gt; is included and inside of our index.html
+* <ui-view></ui-view> is included and inside of our index.html
 
 
-The &lt;ui-view></ui-view&gt; element and it's placement is crucial to understanding how routing works.
+The <ui-view></ui-view> element and it's placement is crucial to understanding how routing works.
 The router is going to take that element and inject certain templates (html pages) into it depending on which route we're using.
-The template that is injected into the &lt;ui-view></ui-view&gt; element depends entirely on what we specify in using the `$stateProvider` object in our app.js file.
+The template that is injected into the <ui-view></ui-view> element depends entirely on what we specify in using the `$stateProvider` object in our app.js file.
 Creating a router this way allows us to dynamically switch templates and controllers based on the URL.
 
 Once you feel VERY comfortable with the existing codebase, move on to the next step.
